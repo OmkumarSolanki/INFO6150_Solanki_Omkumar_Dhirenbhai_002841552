@@ -1,7 +1,6 @@
 .neuHeader {
   display: flex;
   background-color: #4d7ea9;
-  height: 120px;
 }
 
 .neuHeadingText {
@@ -79,3 +78,8 @@ iframe {
 img {
   margin-bottom: 20px;
 }
+
+#LogoImage {
+  margin-bottom: 0;
+}
+
