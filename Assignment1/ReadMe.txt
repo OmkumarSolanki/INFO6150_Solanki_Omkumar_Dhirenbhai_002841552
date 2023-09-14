@@ -5,7 +5,7 @@ Table - On Home/Index Page
 Form - On Apply Page
 Images - On Gallery Page
 Hyperlink - On All Pages
-Button - On Applu Page
+Button - On Apply Page
 audio - On Home/Index Page
 video - On Gallery Page
 header - On All Pages
