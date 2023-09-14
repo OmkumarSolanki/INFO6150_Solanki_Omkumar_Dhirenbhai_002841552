@@ -8,7 +8,7 @@
   margin-left: 2.5%;
 }
 
-ul {
+li {
   list-style-type: none;
   display: flex;
   font-size: large;
@@ -83,3 +83,16 @@ img {
   margin-bottom: 0;
 }
 
+menu {
+  display: flex;
+  padding-left: 0;
+}
+
+.phoneContainer {
+  display: flex;
+}
+
+.phoneMe,
+.emailMe {
+  padding-left: 10px;
+}
