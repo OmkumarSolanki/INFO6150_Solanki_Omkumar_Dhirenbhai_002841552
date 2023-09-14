@@ -1,0 +1,103 @@
+.neuHeader {
+  display: flex;
+  background-color: #4d7ea9;
+}
+
+.neuHeadingText {
+  color: white;
+  margin-left: 2.5%;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  font-size: large;
+  padding-left: 2.5%;
+}
+
+.headerContainer {
+  width: 80%;
+}
+
+.links {
+  margin: 0 20px 0 0;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: darkblue;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #4d7ea9;
+  color: white;
+}
+
+.neuFooter {
+  display: flex;
+  padding: 15px 10px;
+}
+
+.neuFooterContainer {
+  margin-left: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  margin-top: 15px;
+  padding: 20px;
+  border: 1px solid;
+  color: #828489;
+  width: 100%;
+  text-align: center;
+}
+
+th,
+td {
+  font-size: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.bodyContainer {
+  margin: 120px 20% 60px 20%;
+}
+
+caption {
+  font-size: 25px;
+}
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+body {
+  margin-top: 125px;
+  margin-bottom: 40px;
+}
+
+.audioHeading {
+  color: darkblue;
+}
+
+.audioContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+p {
+  padding-top: 20px;
+}
