@@ -24,7 +24,7 @@ Images - It is a tag used to show images in the web page. It can show images in 
 Hyperlink - it is used to go to another web page or another website. It is mainly used to move within websites or different website as specified.
 Button - Button can be used as to submit data, reset form or any fields, or as designed. It operates when we click on it.  
 audio - It is a tag which takes audio files as input and we can play audio on web pages using this tag. It gives us the power to play audio without downlaoding the audio file.
-video - It is a iframe container. If input is given as a youtube video than by clicking on it youtube video starts playing. It also has many controls like pause, play. etc. It gives us the advantage of playing the video without downloading the video/
+video - It is a iframe container. If input is given as a youtube video than by clicking on it youtube video starts playing. It also has many controls like pause, play. etc. It gives us the advantage of playing the video without downloading the video.
 header - It is a tag in which we define the whole header, We can put the header icon, menu bar, search bar, header name etc. It is very important part as it is a heading and also provides many functionalites to the website.
 footer - It is a tag in which we define the whole footer (bottom section of the web page), we can put informations related to contact information, copyright, links for other pages etc. It is very important section as it provides some important link and details/
 summary - It is a tag used to show summary information regarding something. when we click on the tag, it expands to show summary (detailed information) and again clicking on it collapses the detailed information.
