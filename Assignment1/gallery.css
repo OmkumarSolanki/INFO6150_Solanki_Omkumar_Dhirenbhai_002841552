@@ -1,6 +1,7 @@
 .neuHeader {
   display: flex;
   background-color: #4d7ea9;
+  height: 120px;
 }
 
 .neuHeadingText {
