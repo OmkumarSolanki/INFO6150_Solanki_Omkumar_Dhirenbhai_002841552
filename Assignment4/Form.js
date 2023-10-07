@@ -367,4 +367,13 @@ function ResetTable() {
   document.querySelector("#ratingDetails").innerHTML = "";
   document.getElementById("ratingDetails").classList.add("hidden");
   document.getElementById("ratingDesctiption").classList.add("hidden");
+
+  validName = false;
+  validEmail = false;
+  validPhone = false;
+  validAddress1 = false;
+  validAddress2 = true;
+  validZipCode = false;
+  validComments = false;
+  validReason = false;
 }
