@@ -17,7 +17,7 @@ var regExPhone = /^\d{3}\d{3}\d{4}$/;
 var regExAddress1 = /^[A-Za-z0-9'\.\-\s\,]/;
 var regExAddress2 = /^[A-Za-z0-9'\.\-\s\,]/;
 var regExZipCode = /^\d{5}(-\d{4})?$/;
-var regExComments = /^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/;
+var regExComments = /^[a-zA-Z0-9]+(([',. -][a-zA-Z0-9 ])?[a-zA-Z0-9]*)*$/;
 
 var firstName = document.getElementById("firstName");
 firstName.addEventListener("input", validate);
@@ -376,4 +376,6 @@ function ResetTable() {
   validZipCode = false;
   validComments = false;
   validReason = false;
+
+  CheckSubmit();
 }
