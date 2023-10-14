@@ -26,6 +26,7 @@
 }
 .wrapper .one:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper2 .one {
@@ -46,6 +47,7 @@
 }
 .wrapper3 .one:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper4 .one {
@@ -62,6 +64,7 @@
 }
 .wrapper4 .one:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper .two {
@@ -74,6 +77,7 @@
 }
 .wrapper .two:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper2 .two {
@@ -94,6 +98,7 @@
 }
 .wrapper3 .two:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper4 .two {
@@ -110,6 +115,7 @@
 }
 .wrapper4 .two:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper .three {
@@ -122,6 +128,7 @@
 }
 .wrapper .three:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper2 .three {
@@ -142,6 +149,7 @@
 }
 .wrapper3 .three:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper4 .three {
@@ -158,6 +166,7 @@
 }
 .wrapper4 .three:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper .four {
@@ -170,6 +179,7 @@
 }
 .wrapper .four:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper2 .four {
@@ -190,6 +200,7 @@
 }
 .wrapper3 .four:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper4 .four {
@@ -206,6 +217,7 @@
 }
 .wrapper4 .four:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper .five {
@@ -218,6 +230,7 @@
 }
 .wrapper .five:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper2 .five {
@@ -238,6 +251,7 @@
 }
 .wrapper3 .five:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper4 .five {
@@ -254,6 +268,7 @@
 }
 .wrapper4 .five:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper .six {
@@ -266,6 +281,7 @@
 }
 .wrapper .six:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper2 .six {
@@ -286,6 +302,7 @@
 }
 .wrapper3 .six:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper4 .six {
@@ -302,6 +319,7 @@
 }
 .wrapper4 .six:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper .seven {
@@ -314,6 +332,7 @@
 }
 .wrapper .seven:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper2 .seven {
@@ -334,6 +353,7 @@
 }
 .wrapper3 .seven:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper4 .seven {
@@ -350,6 +370,7 @@
 }
 .wrapper4 .seven:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper .eight {
@@ -362,6 +383,7 @@
 }
 .wrapper .eight:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper2 .eight {
@@ -382,6 +404,7 @@
 }
 .wrapper3 .eight:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper4 .eight {
@@ -398,6 +421,7 @@
 }
 .wrapper4 .eight:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper .nine {
@@ -410,6 +434,7 @@
 }
 .wrapper .nine:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper2 .nine {
@@ -430,6 +455,7 @@
 }
 .wrapper3 .nine:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper4 .nine {
@@ -446,6 +472,7 @@
 }
 .wrapper4 .nine:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 :root {
@@ -481,6 +508,7 @@
 }
 .wrapper .one:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper2 .one {
@@ -501,6 +529,7 @@
 }
 .wrapper3 .one:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper4 .one {
@@ -517,6 +546,7 @@
 }
 .wrapper4 .one:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper .two {
@@ -529,6 +559,7 @@
 }
 .wrapper .two:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper2 .two {
@@ -549,6 +580,7 @@
 }
 .wrapper3 .two:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper4 .two {
@@ -565,6 +597,7 @@
 }
 .wrapper4 .two:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper .three {
@@ -577,6 +610,7 @@
 }
 .wrapper .three:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper2 .three {
@@ -597,6 +631,7 @@
 }
 .wrapper3 .three:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper4 .three {
@@ -613,6 +648,7 @@
 }
 .wrapper4 .three:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper .four {
@@ -625,6 +661,7 @@
 }
 .wrapper .four:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper2 .four {
@@ -645,6 +682,7 @@
 }
 .wrapper3 .four:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper4 .four {
@@ -661,6 +699,7 @@
 }
 .wrapper4 .four:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper .five {
@@ -673,6 +712,7 @@
 }
 .wrapper .five:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper2 .five {
@@ -693,6 +733,7 @@
 }
 .wrapper3 .five:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper4 .five {
@@ -709,6 +750,7 @@
 }
 .wrapper4 .five:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper .six {
@@ -721,6 +763,7 @@
 }
 .wrapper .six:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper2 .six {
@@ -741,6 +784,7 @@
 }
 .wrapper3 .six:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper4 .six {
@@ -757,6 +801,7 @@
 }
 .wrapper4 .six:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper .seven {
@@ -769,6 +814,7 @@
 }
 .wrapper .seven:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper2 .seven {
@@ -789,6 +835,7 @@
 }
 .wrapper3 .seven:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper4 .seven {
@@ -805,6 +852,7 @@
 }
 .wrapper4 .seven:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper .eight {
@@ -817,6 +865,7 @@
 }
 .wrapper .eight:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper2 .eight {
@@ -837,6 +886,7 @@
 }
 .wrapper3 .eight:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper4 .eight {
@@ -853,6 +903,7 @@
 }
 .wrapper4 .eight:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper .nine {
@@ -865,6 +916,7 @@
 }
 .wrapper .nine:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper2 .nine {
@@ -885,6 +937,7 @@
 }
 .wrapper3 .nine:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 .wrapper4 .nine {
@@ -901,6 +954,7 @@
 }
 .wrapper4 .nine:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-size: 20px;
 }
 
 :root {
@@ -1024,7 +1078,7 @@ h1 {
 }
 
 .wrapper2 {
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(15, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   padding: 9%;
@@ -1037,24 +1091,24 @@ h1 {
   grid-row: 1;
 }
 .wrapper2 .two {
-  grid-column: 2/4;
+  grid-column: 3/7;
   grid-row: 2;
 }
 .wrapper2 .three {
-  grid-column: 5/7;
+  grid-column: 10/14;
   grid-row: 2;
 }
 .wrapper2 .four {
-  grid-column: 4;
+  grid-column: 8;
   grid-row: 3;
 }
 .wrapper2 .five {
-  grid-column: 3/6;
+  grid-column: 6/11;
   grid-row: 4;
 }
 .wrapper2 .six {
-  grid-column: 1/8;
-  grid-row: 5;
+  grid-column: 9/16;
+  grid-row: 1;
 }
 .wrapper2 .one,
 .wrapper2 .two,
@@ -1154,4 +1208,25 @@ h1 {
 
 .wrapper4 > .Container1 > .one {
   border: 5px solid black;
+}
+
+.eyes {
+  font-size: 70px;
+  padding-left: 25px;
+  margin-top: -2px;
+}
+
+.eyebrow {
+  font-size: 79px;
+}
+
+.nose {
+  font-size: 75px;
+  padding-left: 4px;
+}
+
+.mouth {
+  font-size: 75px;
+  padding-left: 24px;
+  margin-top: -8px;
 }/*# sourceMappingURL=styles.css.map */
