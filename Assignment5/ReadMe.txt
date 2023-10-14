@@ -22,28 +22,38 @@ Used: _Config.scss Line No: 33, 50, 55, 74
 Used: _Header.scss Line No: 3, 19
 
 6. Mixin 
-	it is basically a reusable block of code that we can include to get the css properties. 
+	it is basically a reusable block of code that we can include to get the css properties. We cab use @include to use it. We can pack a set of css values and apply them in multiple places. We can also pass arguments in it. I used a parameter to select the background color and then by the back ground color we need to decide that we need to use while or black color of the text. It is paired with a functionn set-text-color. I used in every component for grid and flex.
+Used: _Config.scss Line No: 23
 
 7. Functions
-	We can do anything inside functions eg calculation, color manipultion, calculating some inbuilt functions and process the data
+	We can do anything inside functions eg calculation, color manipultion, calculating some inbuilt functions and process the data. I used to set the text color for the containers of flex and grid. 
+Used: _Config.scss Line No: 15
 
 Extra Features
 1. Implemented Hidden Declarations
-	you can decide which property to add in your scss code by creating a variable and assigning the value to false and true. if the value is true then the condition in the if statement would run.
+	you can decide which property to add in your scss code by creating a variable and assigning the value to false and true. if the value is true then the condition in the if statement would run. I creatred a variable border-available and assign it to true. then I used it in flex class object to show border
+Used: _Styles.scss Line No: 209
 	
 2. Sass built-in functions
 	SASS provides a lot of built-in functions for performing math calc. I am using the math.div(x/y) function for calulationg the exact value and then using the percentage function to get percentage from it. I have also used lightness to calculate if the color is dark.
+Used: _Styles.scss Line No: 205
+      _Config.scss Line No: 16
 	
 3. SassScript Expressions
-	This expression is used to perform various operations such as multiplying a variable. I used it to multiply a variable that changes border radius.
+	This expression is used to perform various operations such as multiplying a variable. I used it to multiply a variable that changes border radius. I multipied by 20 to make it circle in flex element.
+Used:  _Styles.scss Line No: 190
 	
 4. Using MAP and Lists 
-	Sass has various data structures and algorithms. I am using the List and MAP to give different colors to different containers.
+	Sass has various data structures and algorithms. I am using the List and MAP to give different colors to different containers. I am storing data in list and then taking the data using map.
+Used: _Styles.scss Line No: 171, 184, 188, 194, 198
 
 5. CSS Selectors (&)
-	I have used this css selector in nested loops. This allows us to make very complex and to the point css selectors
+	I have used this css selector in nested loops. This helps me to access the parent name by just writing a & insted of writing the full name. I used at many places to put the hover property on it. 
+Used _Config.scss Line No: 42, 66, 85
+     _Header.scss Line No: 12, 26
 
 6. if else
-	I have used the if else loop inside the function to calculate the lightness of the color and modify data accordingly.
+	I have used the if else loop inside the function to calculate the lightness of the color and modify data accordingly. 
+Used _Config.scss Line No: 16
 
 
