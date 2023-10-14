@@ -1,12 +1,17 @@
 
 1. Variables
-	like any other programming languages, SASS also has variables and it can be used multiple times. It increases the readibility and editability.
+	like any other programming languages, SASS also has variables and it can be used multiple times. It increases the readibility and editability. when we need to edit a value, we need to change at only one location and it affects the whole projects. 
+Used: _Config.scss Line No: 4-13. 
 
 2. Custom Properties
-	It allows us to create a very different declaration for css. we can create it and use it by using var
+	It allows us to create a very different declaration for css. we can create it and use it by using var. Created font-style and border radius variable with the help of Custom Properties. I am using it for giving border radius in the Courses Offered and Used the font style variable in all grid and flex elements
+Used: _Config.scss Line No: 38, 40, 62, 81
 
 3. Nesting
-	If a element is the children of a bigger element, then we can write them inside the loop to give specific css.
+	If a element is the children of a bigger element, then we can write them inside the loop to give specific css. I have used in all my grid and flex components for styling different internal components and to position them at desired position. 
+Used: _Config.scss Line No: 32, 49, 54, 73
+      _header.scss Line No: 12, 26
+      _Style.scss Line No: 14, 76, 127, 178
 
 4. Interpolation
 	Use of #{} for dynamic css creation like javascript
