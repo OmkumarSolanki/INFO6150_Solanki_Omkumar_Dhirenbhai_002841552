@@ -14,13 +14,15 @@ Used: _Config.scss Line No: 32, 49, 54, 73
       _Style.scss Line No: 14, 76, 127, 178
 
 4. Interpolation
-	Use of #{} for dynamic css creation like javascript
+	Use of #{} for dynamic css creation like javascript. I have used it in all my flex and grid containers. As I have givem names of the classes similar i.e. one, two, three, four, five, six.... So by just passing a list in each I can access all of them.
+Used: _Config.scss Line No: 33, 50, 55, 74
 
 5. Placeholder Selectors (%)
-	They are created by % sign and we can use extend so that the css property applies there.
+	They are created by % sign and we can use extend so that the css property applies there. Basically we can create a templete and utilize it whenever we needed by using extend. I have used it for making a template of header.
+Used: _Header.scss Line No: 3, 19
 
 6. Mixin 
-	it is basically a reusable block of code that we can include to get the css properties
+	it is basically a reusable block of code that we can include to get the css properties. 
 
 7. Functions
 	We can do anything inside functions eg calculation, color manipultion, calculating some inbuilt functions and process the data
