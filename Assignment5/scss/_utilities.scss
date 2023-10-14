@@ -1,0 +1,17 @@
+.wrapper,
+.wrapper2 {
+  display: grid;
+}
+
+.wrapper3,
+.wrapper4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.Container1,
+.Container2,
+.Container3 {
+  display: flex;
+  width: 100%;
+}

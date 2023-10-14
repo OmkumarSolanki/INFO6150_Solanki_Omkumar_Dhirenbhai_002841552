@@ -1,0 +1,29 @@
+@import "config";
+
+%header {
+  // Placeholder Selectors % sign
+  border-bottom: 10px rgba($fill-color, 0.2) solid;
+  padding: 16px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba($fill-color, 0.2);
+
+  &:hover {
+    // CSS Selector
+    border-bottom: 10px rgba($fill-color, 0.6) solid;
+  }
+}
+
+.header-grid {
+  @extend %header;
+}
+
+.header-flex {
+  @extend %header;
+  background-color: rgba(rgba($fill-color2, 0.6), 0.2);
+  border-bottom: 10px rgba($fill-color2, 0.2) solid;
+  &:hover {
+    border-bottom: 10px rgba($fill-color2, 0.6) solid;
+  }
+}

@@ -1,0 +1,95 @@
+@use "sass:math";
+@import "utilities";
+
+$fill-color: #14a2ff;
+$fill-color2: #57a6a3;
+$text-color: purple;
+$text-dark: black;
+$text-light: white;
+$font-stack: "Avenir", BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+  Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$red: red;
+$border-radius: 1pc;
+$border-available: true;
+
+@function set-text-color($color) {
+  @if (lightness($color) > 70) {
+    @return $text-dark;
+  } @else {
+    @return $text-light;
+  }
+}
+
+@mixin set-layout($back-ground-color) {
+  background-color: $back-ground-color;
+  font-size: 15px;
+  color: set-text-color($back-ground-color); // function
+}
+
+$spaceamounts: (one, two, three, four, five, six, seven, eight, nine);
+
+@each $space in $spaceamounts {
+  .wrapper {
+    .#{$space} {
+      // Interpolation https://sass-lang.com/documentation/interpolation/ .#{}
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: var(--border-radius);
+      padding: 20%;
+      font-family: var(--font-stack);
+
+      &:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5),
+          0 1px 2px rgba(0, 0, 0, 0.24);
+      }
+    }
+  }
+  .wrapper2 {
+    .#{$space} {
+      border-radius: 10pc;
+    }
+  }
+  .wrapper3 {
+    .#{$space} {
+      margin: 10px;
+      height: 150px;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: var(--font-stack);
+      padding: 5%;
+      width: 33%;
+      font-size: 20px;
+      &:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5),
+          0 1px 2px rgba(0, 0, 0, 0.24);
+      }
+    }
+  }
+  .wrapper4 {
+    .#{$space} {
+      margin: 10px;
+      height: 150px;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: var(--font-stack);
+      padding: 5%;
+      width: 33%;
+      font-size: 20px;
+      &:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5),
+          0 1px 2px rgba(0, 0, 0, 0.24);
+      }
+    }
+  }
+}
+
+// Custom Properties https://sass-lang.com/documentation/style-rules/declarations/
+:root {
+  --font-stack: #{$font-stack};
+  --border-radius: #{$border-radius};
+}
