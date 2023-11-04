@@ -32,3 +32,12 @@ body {
   justify-content: center;
   padding: 30px 0px;
 }
+
+.buttonAlign {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonAlign > button {
+  margin: 0 10px;
+}

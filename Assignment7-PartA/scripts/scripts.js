@@ -4,7 +4,7 @@ $(document).ready(function () {
     isValidPassword = false,
     isValidConfirmPassword = false;
 
-  var regExUserName = /^[a-zA-Z]{3,}(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/;
+  var regExUserName = /^[a-zA-Z0-9 ]{3,}$/;
   var regExEmail = /^[a-zA-Z0-9_.+-]+@(northeastern)\.edu$/;
   //   Minimum eight characters, at least one letter, one number and one special character:
   var regExPass =
