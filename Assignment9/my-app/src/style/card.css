@@ -1,0 +1,11 @@
+.imageCard {
+  max-height: 150px;
+  max-width: 150px;
+}
+
+.cardContainer {
+  border: 1px solid black;
+  width: fit-content;
+  padding: 20px;
+  margin: 20px;
+}
