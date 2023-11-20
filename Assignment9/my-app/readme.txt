@@ -61,6 +61,7 @@ Axios - For Connection to Mongodb (Backend)
 To Run the application
 First fo npm install and then run the respective files
 
-
+Use two terminals.
+One for backend the other for frontend.
 
 
