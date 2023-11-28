@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import moment from "moment"; // Moved the import statement here
+import moment from "moment";
 import DailyCard from "./DailyCard";
 import "../App.css";
 
@@ -27,6 +27,7 @@ function Daily() {
   }, []);
 
   function refreshData() {
+    const uniqueDatesSet = new Set();
     const _url =
       "http://api.openweathermap.org/data/2.5/forecast?lat=42.36&lon=-71.05&units=metric&appid=568ab2144f7baee0d8619a3d474ea912";
 
@@ -34,21 +35,33 @@ function Daily() {
       .then((res) => res.json())
       .then((data) => {
         // console.log(data);
-        const dailyData = data.list
-          .filter((reading) => reading.dt_txt.includes("00:00:00"))
-          .map((item) => {
-            const weekday = item.dt * 300;
-            const _date = new Date(weekday);
-            item.day = moment(_date).format("dddd");
-            return item;
-          });
+        // const dailyData = data.list.filter((reading) =>
+        //   reading.dt_txt.includes("00:00:00")
+
+        const dailyData = data.list.filter((reading) => {
+          const date = reading.dt_txt.split(" ")[0];
+          if (!uniqueDatesSet.has(date)) {
+            uniqueDatesSet.add(date);
+            return true;
+          }
+          return false;
+        });
+        // setUniqueDatesSet(uniqueDatesSet);
+
+        // .map((item) => {
+        //   const weekday = item.dt * 300;
+        //   const _date = new Date(weekday);
+        //   item.day = moment.utc(_date).format("dddd");
+        //   return item;
+        // });
 
         setCurrentTemp(data.list[0].main.temp);
         setCompleteData(data.list);
         setHasError(false);
-        // console.log("Daily ka - ");
-        // console.log(dailyData);
         setDailyData(dailyData);
+        // setUniqueDatesSet(uniqueDatesSet);
+
+        // console.log(dailyData);
       })
       .catch((err) => {
         setCompleteData([]);
